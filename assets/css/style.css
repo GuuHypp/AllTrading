@@ -5182,11 +5182,61 @@ section {
 
 /*** Quem Somos ***/
 
+#quemSomosTitle {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#quemSomosTitle:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media(max-width: 767px){
+  #quemSomosTitle{
+    height: 30vh;
+  }
+}
+
+#quemSomosTitle h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#quemSomosTitle h1 span {
+  color: #ffc451;
+}
+
+#quemSomosTitle div{
+  padding-top: 30px;
+}
+
+.quemSomos-imgTitle{
+  width: 350px;
+  text-align: center;
+}
+
+.quemSomos-imgTitle2{
+  width: 350px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 #quemSomos {
   width: 100%;
-  height: 130vh;
+  height: 260vh;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: url("../img/produtos/fundos/img3.png") top center;
   background-size: cover;
   background-repeat: repeat-y;
   padding-bottom: 0%;
@@ -5207,12 +5257,19 @@ section {
   text-align: center;
 }
 
+#quemSomos .quemSomos-content{
+  background: #FFF;
+  border-radius: 5px;
+  width: 100%;
+}
+
 #quemSomos h3.quemSomos-content{
-  color: #ffffff;
+  color: #0C0B2D;
   font-size: 17px;
-  font-weight: 50;
+  font-weight: 100;
   position: relative;
   text-align: left;
+  padding: 20px 200px;
 }
 
 #quemSomos .quemSomos-img{
@@ -5240,9 +5297,11 @@ section {
   font-size: 16px;
   line-height: 1.5;
   padding: 20px 40px;
-  color: #FFF;
+  color: #0C0B2D;
   text-align: left;
   font-family: "Poppins", sans-serif;
+  background: #fff;
+  border-radius: 5px;
 }
 
 .quemSomos-topic {
@@ -5251,6 +5310,7 @@ section {
   margin-top: 20px;
   color: #0C0B2D;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .quemSomos-subtopic {
