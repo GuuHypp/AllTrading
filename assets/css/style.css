@@ -2214,20 +2214,36 @@ section {
 }
 
 
-/****** Séries Produtos ************/
+/****** Paineis ************/
+
+.card-img-top{
+  width: 170px;
+  height: 200px;
+  padding: 10px;
+}
+
+#paineisTitle {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+#paineisTitle h1{
+  color: #FFF;
+}
 
 #paineisLed {
   width: 100%;
-  height: 40vh;
-  background: url("../img/produtos/fundos/fundoo2.jpg") top center;
+  height: auto;
+  background: url("../img/produtos/fundos/img2a.png") top center;
   background-size: cover;
   position: relative;
+  padding: 0px;
 }
 
 #paineisLed h1{
   color: #FFF;
 }
-
 
 /*-----------------*/
 
@@ -2239,7 +2255,7 @@ section {
   width: 100%;
   height: 190vh;
   position: relative;
-  background: url("../img/fundo_escuro.gif") top center;
+  background: url("../img/produtos/fundos/img2a.png") top center!important;
   background-size: cover;
   padding-top: 2%;
 }
