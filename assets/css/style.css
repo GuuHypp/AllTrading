@@ -2237,6 +2237,7 @@ section {
 
 #paineisLed h1{
   color: #FFF;
+  font-family: "Zen Dots", cursive;
 }
 
 /*-----------------*/
@@ -2386,12 +2387,6 @@ section {
   right: 0;
 }
 
-@media(max-width: 767px){
-  #silicio{
-    height: 30vh;
-  }
-}
-
 #silicio h1 {
   margin: 0;
   font-size: 50px;
@@ -2416,7 +2411,7 @@ section {
   background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
@@ -2465,9 +2460,6 @@ section {
     width: 400px;
     height: 300px;
   }
-  #silicioDesc{
-    height: 115vh;
-  }
 }
 
 #silicioDesc2 {
@@ -2477,7 +2469,7 @@ section {
   background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
@@ -2526,9 +2518,6 @@ section {
     width: 400px;
     height: 300px;
   }
-  #silicioDesc2{
-    height: 115vh;
-  }
 }
 
 
@@ -2538,7 +2527,7 @@ section {
   width: 100%;
   height: auto;
   position: relative;
-  background: #d3d3d3;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
   padding-bottom: 2%;
@@ -2554,16 +2543,13 @@ section {
   right: 0;
 }
 
-#silicioDescTec h3 {
-  text-align: center;
-}
-
 #silicioDescTec h3.descSilicio{
   color: #0c0b2d;
   font-size: 20px;
   font-weight: 500;
   position: relative;
   margin: 0px 10px;
+  text-align: center;
 }
 
 #silicioDescTec .silicio1{
@@ -2581,28 +2567,23 @@ section {
     width: 400px;
     height: 300px;
   }
-  #silicioDescTec{
-    height: 65vh;
-  }
-
 }
 
 /**** Série Carbono ****/
 
 #carbonoDesc {
   width: 100%;
-  height: 165vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #carbonoDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2616,7 +2597,7 @@ section {
 }
 
 #carbonoDesc h3.descCarbono{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -2633,25 +2614,22 @@ section {
     width: 400px;
     height: 400px;
   }
-  #carbonoDesc{
-    height: 120vh;
-  }
+
 }
 
 #carbonoDesc2 {
   width: 100%;
-  height: 105vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #carbonoDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2665,7 +2643,7 @@ section {
 }
 
 #carbonoDesc2 h3.descCarbono{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -2691,18 +2669,17 @@ section {
 
 #pisoLed {
   width: 100%;
-  height: 190vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #FFF;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #pisoLed:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2710,17 +2687,13 @@ section {
   right: 0;
 }
 
-
-#pisoLed h3 {
-  text-align: center;
-}
-
 #pisoLed h3.descPiso{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
 #pisoLed .piso1{
@@ -2734,27 +2707,21 @@ section {
     width: 400px;
     height: 400px;
   }
-  #pisoLed{
-    height: 160vh;
-  }
 }
 
-/****  Série Diamante ****/
-
-#diamante {
+#pisoLed2 {
   width: 100%;
-  height: 85vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   padding-top: 0%;
 }
 
-#diamante:before {
+#pisoLed2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2762,17 +2729,57 @@ section {
   right: 0;
 }
 
-
-#diamante h3 {
-  text-align: center;
-}
-
-#diamante h3.descDiamante{
-  color: #ffffff;
+#pisoLed2 h3.descPiso{
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
+}
+
+#pisoLed2 .piso1{
+  width: 450px;
+  height: 450px;
+  padding: 0px 20px;
+}
+
+@media (max-width: 414px){
+  #pisoLed2 .piso1{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/****  Série Diamante ****/
+
+#diamante {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #fff;
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-bottom: 2%;
+  padding-top: 0%;
+}
+
+#diamante:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#diamante h3.descDiamante{
+  color: #0c0b2d;
+  font-size: 20px;
+  font-weight: 50;
+  position: relative;
+  margin: 0px 10px;
+  text-align: Left;
 }
 
 #diamante .Diamante1{
@@ -2790,25 +2797,21 @@ section {
     width: 400px;
     height: 400px;
   }
-  #diamante{
-    height: 70vh;
-  }
 }
 
 #diamante2 {
   width: 100%;
-  height: 130vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   padding-top: 0%;
 }
 
 #diamante2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2816,18 +2819,14 @@ section {
   right: 0;
 }
 
-
-#diamante2 h3 {
-  text-align: center;
-}
-
 #diamante2 h3.descDiamante{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
   padding-top: 40px;
+  text-align: left;
 }
 
 #diamante2 .Diamante1{
@@ -2853,28 +2852,23 @@ section {
     width: 130px;
     height: 130px;
   }
-
-  #diamante2{
-    height: 85vh;
-  }
 }
 
 
 /***** Magnésio *****/
 #magnesioDesc {
   width: 100%;
-  height: 145vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #magnesioDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2882,16 +2876,13 @@ section {
   right: 0;
 }
 
-#magnesioDesc h3 {
-  text-align: left;
-}
-
 #magnesioDesc h3.descMagnesio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
 #magnesioDesc .magnesio1{
@@ -2913,25 +2904,21 @@ section {
     width: 400px;
     height: 300px;
   }
-  #magnesioDesc{
-    height: 120vh;
-  }
 }
 
 #magnesioDesc2 {
   width: 100%;
-  height: 85vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #magnesioDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2939,42 +2926,36 @@ section {
   right: 0;
 }
 
-#magnesioDesc2 h3 {
-  text-align: left;
-}
-
 #magnesioDesc2 h3.descMagnesio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
 @media (max-width: 414px){
-  #magnesioDesc2 .magnesio5{
+  #magnesioDesc2 .magnesio5, 
+  #magnesioDesc2 .magnesio2{
     width: 400px;
     height: 300px;
-  }
-  #magnesioDesc2{
-    height: 70vh;
   }
 }
 /*** Descritivo Técnico Magnesio ***/
 #magnesioDescTec {
   width: 100%;
-  height: 165vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   padding-top: 0%;
 }
 
 #magnesioDescTec:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2982,16 +2963,13 @@ section {
   right: 0;
 }
 
-#magnesioDescTec h3 {
-  text-align: center;
-}
-
 #magnesioDescTec h3.descMagnesio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: center;
 }
 
 #magnesioDescTec .magnesio1{
@@ -3015,28 +2993,23 @@ section {
     width: 400px;
     height: 300px;
   }
-  #magnesioDescTec{
-    height: 55vh;
-  }
-
 }
 
 
 /***** Titânio *****/
 #titanioDesc {
   width: 100%;
-  height: 160vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #titanioDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3044,56 +3017,49 @@ section {
   right: 0;
 }
 
-#titanioDesc h3 {
-  text-align: center;
-}
-
 #titanioDesc h3.descTitanio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
-#titanioDesc .titanio1{
+.titanio1{
   width: 450px;
   height: 450px;
 }
 
-#titanioDesc2 .titanio2{
+.titanio2{
   width: 450px;
   height: 450px;
 }
 
 @media (max-width: 414px){
-  #titanioDesc .titanio1{
+  .titanio1{
     width: 350px;
     height: 400px;
   }
-  #titanioDesc2 .titanio2{
+  .titanio2{
     width: 350px;
     height: 400px;
-  }
-  #titanioDesc{
-    height: 130vh;
   }
 }
 
 #titanioDesc2 {
   width: 100%;
-  height: 85vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #titanioDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3101,42 +3067,29 @@ section {
   right: 0;
 }
 
-#titanioDesc2 h3 {
-  text-align: center;
-}
-
 #titanioDesc2 h3.descTitanio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
-@media (max-width: 414px){
-  #titanioDesc2 .titanio5{
-    width: 400px;
-    height: 300px;
-  }
-  #titanioDesc2{
-    height: 70vh;
-  }
-}
 /*** Descritivo Técnico Titânio ***/
 #titanioDescTec {
   width: 100%;
-  height: 110vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   padding-top: 0%;
 }
 
 #titanioDescTec:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3144,16 +3097,13 @@ section {
   right: 0;
 }
 
-#titanioDescTec h3 {
-  text-align: center;
-}
-
 #titanioDescTec h3.descTitanio{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
-  font-weight: 50;
+  font-weight: 500;
   position: relative;
   margin: 0px 10px;
+  text-align: center;
 }
 
 #titanioDescTec .titanio5{
@@ -3167,27 +3117,23 @@ section {
     width: 400px;
     height: 300px;
   }
-  #titanioDescTec{
-    height: 55vh;
-  }
 }
 
 
 /***** Platinium *****/
 #platiniumDesc {
   width: 100%;
-  height: 165vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #platiniumDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3195,52 +3141,46 @@ section {
   right: 0;
 }
 
-#platiniumDesc h3 {
-  text-align: left;
-}
-
 #platiniumDesc h3.descPlatinium{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
-#platiniumDesc .platinium1{
+.platinium1{
   width: 450px;
   height: 450px;
 }
 
-#platiniumDesc2 .platinium2{
+.platinium2{
+  background-color: #d3d3d3;
   width: 450px;
   height: 350px;
 }
 
 @media (max-width: 414px){
-  #platiniumDesc .platinium1{
+  .platinium1, .platinium2{
     width: 400px;
     height: 400px;
-  }
-  #platiniumDesc{
-    height: 145vh;
   }
 }
 
 #platiniumDesc2 {
   width: 100%;
-  height: 70vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #platiniumDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3248,43 +3188,29 @@ section {
   right: 0;
 }
 
-#platiniumDesc2 h3 {
-  text-align: left;
-}
-
 #platiniumDesc2 h3.descPlatinium{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
-}
-
-@media (max-width: 414px){
-  #platiniumDesc2 .platinium2{
-    width: 350px;
-    height: 250px;
-  }
-  #platiniumDesc2{
-    height: 60vh ;
-  }
+  text-align: left;
 }
 
 /*** Descritivo Técnico Platinium ***/
 #platiniumDescTec {
   width: 100%;
-  height: 170vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 5%;
   padding-top: 0%;
 }
 
 #platiniumDescTec:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3292,16 +3218,13 @@ section {
   right: 0;
 }
 
-#platiniumDescTec h3 {
-  text-align: center;
-}
-
 #platiniumDescTec h3.descPlatinium{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
-  font-weight: 50;
+  font-weight: 500;
   position: relative;
   margin: 0px 10px;
+  text-align: center;
 }
 
 #platiniumDescTec .platinium5{
@@ -3315,26 +3238,22 @@ section {
     width: 400px;
     height: 300px;
   }
-  #platiniumDescTec{
-    height: 55vh;
-  }
 }
 
 /***** Quartzo *****/
 #quartzoDesc {
   width: 100%;
-  height: 170vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #quartzoDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3342,57 +3261,79 @@ section {
   right: 0;
 }
 
-#quartzoDesc h3 {
-  text-align: center;
-}
-
 #quartzoDesc h3.descQuartzo{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
-#quartzoDesc .quartzo1{
+.quartzo1{
   width: 450px;
   height: 450px;
 }
 
-#quartzoDesc .quartzo2{
+.quartzo2{
   width: 450px;
   height: 350px;
 }
 
 @media (max-width: 414px){
-  #quartzoDesc .quartzo1{
+  .quartzo1{
     width: 300px;
     height: 350px;
   }
-  #quartzoDesc .quartzo2{
+  .quartzo2{
     width: 350px;
     height: 250px;
   }
-  #quartzoDesc{
-    height: 130vh;
-  }
+}
+
+#quartzoDesc2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #d3d3d3;
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-bottom: 5%;
+  padding-top: 0%;
+}
+
+#quartzoDesc2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#quartzoDesc2 h3.descQuartzo{
+  color: #0c0b2d;
+  font-size: 20px;
+  font-weight: 50;
+  position: relative;
+  margin: 0px 10px;
+  text-align: left;
 }
 
 /*** Fly Case ***/
 #flyDesc {
   width: 100%;
-  height: 165vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #flyDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3406,47 +3347,40 @@ section {
   text-align: left;
 }
 
-#flyDesc h3 {
-  text-align: left;
-}
-
 #flyDesc h3.descFly{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 18px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
+  text-align: left;
 }
 
-#flyDesc .flycase1{
+.flycase1{
   width: 450px;
   height: 450px;
 }
 
 @media (max-width: 414px){
-  #flyDesc .flycase1{
+  .flycase1{
     width: 350px;
     height: 350px;
-  }
-  #flyDesc{
-    height: 165vh;
   }
 }
 
 #flyDesc2 {
   width: 100%;
-  height: 85vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #flyDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3460,26 +3394,13 @@ section {
   text-align: left;
 }
 
-#flyDesc2 h3 {
-  text-align: left;
-}
-
 #flyDesc2 h3.descFly{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 18px;
   font-weight: 50;
   position: relative;
   margin: 0px 10px;
-}
-
-@media (max-width: 414px){
-  #flyDesc2{
-    height: 100vh;
-  }
-  #flyDesc2 .flycase1{
-    width: 350px;
-    height: 350px;
-  }
+  text-align: left;
 }
 
 /*** Sending Cards e Receiver Cards ***/
@@ -3804,18 +3725,17 @@ section {
 /***** Partes e Peças *****/
 #partesDesc {
   width: 100%;
-  height: 150vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #partesDesc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3829,55 +3749,48 @@ section {
   font-size: 26px;
 }
 
-#partesDesc h3 {
-  text-align: left;
-}
-
 #partesDesc h3.descPartes{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
+  text-align: left;
 }
 
-#partesDesc .partes1{
+.partes1{
   width: 450px;
   height: 450px;
 }
 
-#partesDesc .partes2{
+.partes2{
   width: 350px;
   height: 350px;
 }
 
 @media (max-width: 414px){
-  #partesDesc .partes1{
+  .partes1{
     width: 300px;
     height: 300px;
   }
-  #partesDesc .partes2{
+  .partes2{
     width: 300px;
     height: 300px;
-  }
-  #partesDesc{
-    height: 145vh;
   }
 }
 
 #partesDesc2 {
   width: 100%;
-  height: 65vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   background-repeat: repeat-y;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #partesDesc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3891,29 +3804,23 @@ section {
   font-size: 26px;
 }
 
-#partesDesc2 h3 {
-  text-align: left;
-}
-
 #partesDesc2 h3.descPartes{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
+  text-align: left;
 }
 
-#partesDesc2 .partes1{
+.partes3{
   width: 400px;
   height: 250px;
 }
 
 @media (max-width: 414px){
-  #partesDesc2 .partes1{
-    width: 250px;
-    height: 250px;
-  }
-  #partesDesc2{
-    height: 75vh;
+  .partes3{
+    width: 300px;
+    height: 300px;
   }
 }
 
