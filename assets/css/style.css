@@ -792,16 +792,15 @@ section {
 /*-----------------*/
 #sobre {
   width: 100%;
-  height: 147vh;
+  height: auto;
   position: relative;
-  background: url("../img/PaineisBG.png") top center;
+  background: url("../img/produtos/fundos/img2b.png") top center;
   background-size: cover;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
 }
 
 #sobre:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -834,35 +833,51 @@ section {
 }
 
 #sobre h3 {
-  text-align: left;
+  text-align: center;
 }
 
-#sobre h3.call{
-  color: #ffffff;
+#sobre .call{
+  background: #FFF;
+  border-radius: 5px;
+}
+
+#sobre .caixa{
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.passos{
+  background: #d3d3d3;
+  width: 100%;
+  line-height: 30px;
+  padding: 2%;
+}
+
+#sobre .call h3{
+  color: #0c0b2d;
   font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
+  font-weight: 300;
+  padding: 1%;
+}
+
+h3 strong{
+  font-weight: 1000;
 }
 
 #sobre div h4{
   padding-top: 2%;
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 700;
   font-size: 30px;
 }
 
 #sobre div h5{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 50;
   text-align: left;
   font-size: 20px;
 }
 
-#sobre .lista h5{
-  line-height: 30px;
-}
 
 #sobre .icon-box {
   margin: 0 10px;
@@ -957,11 +972,11 @@ section {
 
 #blocos {
   width: 100%;
-  height: 190vh;
+  height: auto;
   position: relative;
-  background: url("../img/fundo_escuro.gif") top center;
+  background: #0c0b2d;
   background-size: cover;
-  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #blocos:before {
@@ -1014,11 +1029,16 @@ section {
 }
 
 #blocos div h4{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 100;
   font-size: 18px;
   text-align: left;
   line-height: 30px;
+}
+
+#blocos .blocosIcon{
+  width: 50px;
+  height: 60px;
 }
 
 #blocos div h5{
@@ -1035,6 +1055,7 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
+  background: #fff;
 }
 
 #blocos .icon-box i {
@@ -1054,7 +1075,7 @@ section {
 }
 
 #blocos .icon-box h3 a {
-  color: #fff;
+  color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
@@ -3438,16 +3459,16 @@ section {
 
 #sendingCards {
   width: 100%;
-  height: 135vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
-  padding-top: 2%;
+  padding-top: 0%;
+  padding-bottom: 2%;
 }
 
 #sendingCards:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -3465,7 +3486,7 @@ section {
   font-size: 40px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #0c0b2d;
   font-family: "Poppins", sans-serif;
 }
 
@@ -3570,7 +3591,8 @@ section {
 }
 
 .sendTitle{
-  text-align: left;
+  text-align: center;
+
 }
 
 #sendingCards .icon-box img{
@@ -5244,7 +5266,8 @@ section {
 }
 
 .quemSomos-imgTitle2{
-  width: 350px;
+  width: 1200px;
+  height: 25px;
   text-align: center;
   padding-bottom: 20px;
 }
