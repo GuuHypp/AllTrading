@@ -3908,7 +3908,7 @@ h3 strong{
 }
 
 #sendingCards h3.call{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -3917,7 +3917,7 @@ h3 strong{
 }
 
 #sendingCards div h4{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 100;
   font-size: 18px;
   text-align: left;
@@ -3925,7 +3925,7 @@ h3 strong{
 }
 
 #sendingCards div h5{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 50;
   text-align: left;
   font-size: 20px;
@@ -3957,7 +3957,7 @@ h3 strong{
 }
 
 #sendingCards .icon-box h3 a {
-  color: #fff;
+  color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
@@ -3976,10 +3976,6 @@ h3 strong{
 }
 
 @media (max-width: 768px) {
-  #sendingCards {
-    height: auto;
-  }
-
   #sendingCards h1 {
     font-size: 28px;
     line-height: 36px;
@@ -3993,7 +3989,6 @@ h3 strong{
 
 .sendTitle{
   text-align: center;
-
 }
 
 #sendingCards .icon-box img{
@@ -4005,16 +4000,16 @@ h3 strong{
 
 #sendingCards2 {
   width: 100%;
-  height: 105vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
   padding-top: 0%;
+  padding-bottom: 2%;
 }
 
 #sendingCards2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -4032,7 +4027,7 @@ h3 strong{
   font-size: 40px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #0c0b2d;
   font-family: "Poppins", sans-serif;
 }
 
@@ -4053,7 +4048,7 @@ h3 strong{
 }
 
 #sendingCards2 h3.call{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -4062,7 +4057,7 @@ h3 strong{
 }
 
 #sendingCards2 div h4{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 100;
   font-size: 18px;
   text-align: left;
@@ -4070,7 +4065,7 @@ h3 strong{
 }
 
 #sendingCards2 div h5{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 50;
   text-align: left;
   font-size: 20px;
@@ -4102,7 +4097,7 @@ h3 strong{
 }
 
 #sendingCards2 .icon-box h3 a {
-  color: #fff;
+  color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
@@ -4251,16 +4246,16 @@ h3 strong{
 
 #videoProc {
   width: 100%;
-  height: 110vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #fff;
   background-size: cover;
-  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-top: 0%;
 }
 
 #videoProc:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -4278,7 +4273,7 @@ h3 strong{
   font-size: 40px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #0c0b2d;
   font-family: "Poppins", sans-serif;
 }
 
@@ -4299,7 +4294,7 @@ h3 strong{
 }
 
 #videoProc h3.call{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -4308,7 +4303,7 @@ h3 strong{
 }
 
 #videoProc div h4{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 100;
   font-size: 18px;
   text-align: justify;
@@ -4341,7 +4336,7 @@ h3 strong{
 }
 
 #videoProc .icon-box h3 a {
-  color: #fff;
+  color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
@@ -4360,10 +4355,6 @@ h3 strong{
 }
 
 @media (max-width: 768px) {
-  #videoProc {
-    height: auto;
-  }
-
   #videoProc h1 {
     font-size: 28px;
     line-height: 36px;
@@ -4380,14 +4371,7 @@ h3 strong{
 }
 
 #videoProc .videoTitle,
-#videoProc2 .videoTitle,
-#videoProc3 .videoTitle,
-#videoProc4 .videoTitle,
-#videoProc5 .videoTitle,
-#videoProc6 .videoTitle,
-#videoProc7 .videoTitle,
-#videoProc8 .videoTitle,
-#videoProc9 .videoTitle{
+#videoProc2 .videoTitle{
   font-size: 26px;
 }
 
@@ -4395,16 +4379,16 @@ h3 strong{
 
 #videoProc2 {
   width: 100%;
-  height: 93vh;
+  height: auto;
   position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
+  background: #d3d3d3;
   background-size: cover;
+  padding-bottom: 2%;
   padding-top: 0%;
 }
 
 #videoProc2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -4422,7 +4406,7 @@ h3 strong{
   font-size: 40px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #0c0b2d;
   font-family: "Poppins", sans-serif;
 }
 
@@ -4443,7 +4427,7 @@ h3 strong{
 }
 
 #videoProc2 h3.call{
-  color: #ffffff;
+  color: #0c0b2d;
   font-size: 20px;
   font-weight: 50;
   position: relative;
@@ -4452,7 +4436,7 @@ h3 strong{
 }
 
 #videoProc2 div h4{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 100;
   font-size: 18px;
   text-align: left;
@@ -4460,7 +4444,7 @@ h3 strong{
 }
 
 #videoProc2 div h5{
-  color: #fff;
+  color: #0c0b2d;
   font-weight: 50;
   text-align: left;
   font-size: 20px;
@@ -4492,7 +4476,7 @@ h3 strong{
 }
 
 #videoProc2 .icon-box h3 a {
-  color: #fff;
+  color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
@@ -4511,10 +4495,6 @@ h3 strong{
 }
 
 @media (max-width: 768px) {
-  #videoProc2 {
-    height: 130vh;
-  }
-
   #videoProc2 h1 {
     font-size: 28px;
     line-height: 36px;
@@ -4525,900 +4505,6 @@ h3 strong{
     line-height: 24px;
   }
 }
-
-
-/*******/
-#videoProc3 {
-  width: 100%;
-  height: 75vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc3:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc3 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc3 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc3 h1 span {
-  color: #ffc451;
-}
-
-#videoProc3 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc3 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc3 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc3 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc3 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc3 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc3 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc3 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc3 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc3 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc3 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc3 {
-    height: 120vh;
-  }
-
-  #videoProc3 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc3 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-/***********/
-
-#videoProc4 {
-  width: 100%;
-  height: 70vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc4:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc4 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc4 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc4 h1 span {
-  color: #ffc451;
-}
-
-#videoProc4 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc4 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc4 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc4 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc4 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc4 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc4 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc4 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc4 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc4 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc4 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc4 {
-    height: 110vh;
-  }
-
-  #videoProc4 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc4 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-
-#videoProc5 {
-  width: 100%;
-  height: 83vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc5:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc5 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc5 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc5 h1 span {
-  color: #ffc451;
-}
-
-#videoProc5 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc5 h3 a{
-  text-align: left;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc5 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc5 div h5{
-  color: #fff;
-  font-weight: 50;
-  text-align: left;
-  font-size: 20px;
-}
-
-#videoProc5 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc5 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc5 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc5 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc5 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc5 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc5 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc5 {
-    height: 110vh;
-  }
-
-  #videoProc5 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc5 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-
-/*******/
-#videoProc6 {
-  width: 100%;
-  height: 65vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc6:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc6 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc6 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc6 h1 span {
-  color: #ffc451;
-}
-
-#videoProc6 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc6 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc6 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc6 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc6 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc6 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc6 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc6 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc6 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc6 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc6 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc6 {
-    height: 105vh;
-  }
-
-  #videoProc6 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc6 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-/***********/
-
-#videoProc7 {
-  width: 100%;
-  height: 65vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc7:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc7 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc7 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc7 h1 span {
-  color: #ffc451;
-}
-
-#videoProc7 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc7 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc7 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc7 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc7 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc7 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc7 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc7 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc7 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc7 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc7 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc7 {
-    height: 100vh;
-  }
-
-  #videoProc7 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc7 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-/*******/
-#videoProc8 {
-  width: 100%;
-  height: 65vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc8:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc8 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc8 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc8 h1 span {
-  color: #ffc451;
-}
-
-#videoProc8 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc8 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc8 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc8 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc8 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc8 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc8 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc8 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc8 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc8 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc8 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc8 {
-    height: 100vh;
-  }
-
-  #videoProc8 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc8 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-/***********/
-
-#videoProc9 {
-  width: 100%;
-  height: 135vh;
-  position: relative;
-  background: url("../img/produtos/fundos/fundo_animado_branco.gif") top center;
-  background-size: cover;
-  padding-top: 0%;
-}
-
-#videoProc9:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#videoProc9 .container {
-  position: relative;
-  text-align: center;
-}
-
-#videoProc9 h1 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#videoProc9 h1 span {
-  color: #ffc451;
-}
-
-#videoProc9 h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-#videoProc9 h3 a{
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#videoProc9 h3.call{
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 50;
-  position: relative;
-  top: 60px;
-  left: 2px;
-}
-
-#videoProc9 div h4{
-  color: #fff;
-  font-weight: 100;
-  font-size: 18px;
-  text-align: left;
-  line-height: 30px;
-}
-
-#videoProc9 .icon-box {
-  margin: 0 10px;
-  padding: 60px 30px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
-}
-
-#videoProc9 .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
-}
-
-#videoProc9 .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0 ;
-  line-height: 1;
-  font-size: 20px;
-  line-height: 26px;
-
-}
-
-#videoProc9 .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
-}
-
-#videoProc9 .icon-box h3 a:hover {
-  color: #f5a50c;
-}
-
-#videoProc9 .icon-box:hover {
-  border-color: #f5a50c;
-}
-
-@media (min-width: 1024px) {
-  #videoProc9 {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #videoProc9 {
-    height: auto;
-  }
-
-  #videoProc9 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #videoProc9 h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
 
 .proc1{
   width: 300px!important;
