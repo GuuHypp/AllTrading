@@ -1114,29 +1114,13 @@ h3 strong{
 
 /***************************/
 #clients{
-  height: 100vh;
+  height: 90vh;
 }
 
-@media (max-width: 1290px){
-  #clients{
-    height: 110vh;
-  }
-}
 
-@media (max-width: 1196px){
-  #clients{
-   height: 110vh;
-  }
-}
-
-@media (max-width: 819px){
-  #clients{
-   height: 110vh;
-  }
-}
 
 #clients-logos{
-  height: 55vh;
+  height: auto;
 }
 
 #clients h1 {
@@ -2477,7 +2461,7 @@ h3 strong{
 }
 
 #servicosBlocos .blocosIcon{
-  width: 50px;
+  width: 60px;
   height: 60px;
 }
 
@@ -3297,7 +3281,7 @@ h3 strong{
   height: 450px;
 }
 
-#magnesioDesc .magnesio2{
+#magnesioDesc2 .magnesio2{
   width: 450px;
   height: 350px;
 }
@@ -3392,7 +3376,7 @@ h3 strong{
 #magnesioDescTec .magnesio5{
   background: #fff;
   width: 1280px;
-  height: 768px;
+  height: 700px;
 }
 
 @media (max-width: 414px){
@@ -3559,7 +3543,7 @@ h3 strong{
 
 .platinium1{
   width: 450px;
-  height: 450px;
+  height: 400px;
 }
 
 .platinium2{
@@ -3684,7 +3668,7 @@ h3 strong{
 
 .quartzo2{
   width: 450px;
-  height: 350px;
+  height: 300px;
 }
 
 @media (max-width: 414px){
