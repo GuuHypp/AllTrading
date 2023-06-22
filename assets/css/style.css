@@ -2270,7 +2270,7 @@ h3 strong{
   margin: 10px 0 0 0;
   font-size: 30px;
   color: #0c0b2d;
-  text-align: left;
+  text-align: center;
 }
 
 .servicos-imgTitle{
@@ -2292,7 +2292,6 @@ h3 strong{
 #nossosServicos .call{
   background: #FFF;
   border-radius: 5px;
-
 }
 
 #nossosServicos .caixa{
@@ -2593,7 +2592,7 @@ h3 strong{
 }
 
 #servicosDesc h2{
-  text-align: left;
+  text-align: center;
   color: #0C0B2D;
   font-size: 26px;
 }
@@ -2608,9 +2607,9 @@ h3 strong{
 
 #servicosDesc .descBloco{
   color: #0c0b2d;
-  background: #d3d3d3;
   font-size: 16px;
   text-align: left;
+  align-items: center;
   line-height: 40px;
   padding: 15px;
 }
