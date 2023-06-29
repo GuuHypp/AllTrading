@@ -2209,10 +2209,12 @@ h3 strong{
   margin-bottom: 0;
 }
 
-
 /*-----------------*/
+.fluxograma{
+  width: 1280px;
+  height: 768px;
+}
 
-/*-----------------*/
 #nossosServicos {
   width: 100%;
   height: auto;
