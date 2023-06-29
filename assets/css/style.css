@@ -2212,6 +2212,7 @@ h3 strong{
 /*-----------------*/
 .fluxograma{
   width: 100%;
+  height: 800px;
 }
 
 #nossosServicos {
@@ -3376,8 +3377,8 @@ h3 strong{
 
 #magnesioDescTec .magnesio5{
   background: #fff;
-  width: 1280px;
-  height: 700px;
+  width: 90%;
+  height: 580px;
 }
 
 @media (max-width: 414px){
@@ -3500,15 +3501,8 @@ h3 strong{
 
 #titanioDescTec .titanio5{
   background: #fff;
-  width: 800px;
-  height: 400px;
-}
-
-@media (max-width: 414px){
-  #titanioDescTec .titanio5{
-    width: 400px;
-    height: 300px;
-  }
+  width: 90%;
+  height: 396px;
 }
 
 
@@ -3544,19 +3538,16 @@ h3 strong{
 
 .platinium1{
   width: 450px;
-  height: 400px;
 }
 
 .platinium2{
   background-color: #d3d3d3;
   width: 450px;
-  height: 350px;
 }
 
 @media (max-width: 414px){
   .platinium1, .platinium2{
     width: 400px;
-    height: 400px;
   }
 }
 
@@ -3621,16 +3612,9 @@ h3 strong{
 
 #platiniumDescTec .platinium5{
   background: #fff;
-  width: 1024px;
-  height: 768px;
+  width: 90%;
 }
 
-@media (max-width: 414px){
-  #platiniumDescTec .platinium5{
-    width: 400px;
-    height: 300px;
-  }
-}
 
 /***** Quartzo *****/
 #quartzoDesc {
@@ -3962,7 +3946,7 @@ h3 strong{
 }
 
 #sendingCards .icon-box img{
-  width: 200px;
+  width: 300px;
   height: 200px;
 }
 
@@ -4106,7 +4090,7 @@ h3 strong{
 }
 
 #sendingCards2 .icon-box img{
-  width: 200px;
+  width: 300px;
   height: 200px;
 }
 
@@ -5033,7 +5017,7 @@ h3 strong{
   color: #0c0b2d;
   font-size: 26px;
   font-weight: 500;
-  font-family: "ZenDots", cursive;
+  font-family: "Zen Dots", cursive;
 
 }
 
