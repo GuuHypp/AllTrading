@@ -4943,6 +4943,11 @@ h3 strong{
   height: 50px;
 }
 
+#contatoBlocos .blocosIcon2{
+  width: 40px;
+  height: 50px;
+}
+
 #contatoBlocos div h5{
   color: #fff;
   font-weight: 50;
@@ -5011,6 +5016,7 @@ h3 strong{
   background: #fff;
   border-radius: 5px;
   padding: 1%;
+  
 }
 
 #faleConosco h2{
