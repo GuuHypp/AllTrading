@@ -4488,14 +4488,6 @@ h3 strong{
   padding-top: 0%;
 }
 
-#blog:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
 @media(max-width: 767px){
   #blog{
@@ -4755,7 +4747,6 @@ h3 strong{
 
 #quemSomos:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -5016,7 +5007,7 @@ h3 strong{
   background: #fff;
   border-radius: 5px;
   padding: 1%;
-  
+
 }
 
 #faleConosco h2{
