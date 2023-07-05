@@ -2220,12 +2220,12 @@ h3 strong{
 
 }
 
-#nossosServicos .icon-box h3 a {
+#nossosServicos .icon-box h3{
   color: #fff;
   transition: ease-in-out 0.3s;
 }
 
-#nossosServicos .icon-box h3 a:hover {
+#nossosServicos .icon-box h3:hover {
   color: #f5a50c;
 }
 
@@ -2384,12 +2384,12 @@ h3 strong{
 
 }
 
-#servicosBlocos .icon-box h3 a {
+#servicosBlocos .icon-box h3{
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#servicosBlocos .icon-box h3 a:hover {
+#servicosBlocos .icon-box h3:hover {
   color: #f5a50c;
 }
 
@@ -4145,12 +4145,12 @@ h3 strong{
 
 }
 
-#videoProc .icon-box h3 a {
+#videoProc .icon-box h3{
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#videoProc .icon-box h3 a:hover {
+#videoProc .icon-box h3:hover {
   color: #f5a50c;
 }
 
@@ -4285,12 +4285,12 @@ h3 strong{
 
 }
 
-#videoProc2 .icon-box h3 a {
+#videoProc2 .icon-box h3 {
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#videoProc2 .icon-box h3 a:hover {
+#videoProc2 .icon-box h3:hover {
   color: #f5a50c;
 }
 
@@ -4828,12 +4828,12 @@ h3 strong{
 
 }
 
-#contatoBlocos .icon-box h3 a {
+#contatoBlocos .icon-box h3 {
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#contatoBlocos .icon-box h3 a:hover {
+#contatoBlocos .icon-box h3:hover {
   color: #f5a50c;
 }
 
