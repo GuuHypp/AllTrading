@@ -449,42 +449,6 @@ h6 {
   background: url("../img/video_static.png") top center;
   background-size: cover;
 }
-/* Ipad Pro -- Quando ativado bagunça a visualização no desktop
-@media (max-height: 1366px){
-  #hero{
-    height: 39%;
-  }
-
-}*/
-
-/*@media (max-width: 768px){
-  .ocultar{
-    display: none;
-  }
-
-}
-
-LEMBRETE: Adicionar função para quando chegar em 1050 width para ajustar a altura do hero
-
-
-video{
-    background: url("../img/video_static.png") top center;
-    background-size: cover;
-  }
-
-video { 
-  display: block; 
-  width: 100%; 
-  height: auto; 
-}
-
-.videoBG{
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-
-}*/
 
 .videoBG video{
   z-index: 0;
@@ -498,89 +462,9 @@ video {
   transform: translate(-50%, -50%);
 }
 
-
-/*
-@media (min-height: 1024px){
-  .ocultar{
-    display: none;
-    background: url("../img/logo.png") top center;
-    background-size: cover;
-
-  }
-}
- 
-@media (min-aspect-ratio: 16/9){
-  .videoBG{
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9){
-  .videoBG{
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 767px){
-  .videoBG{
-    display: none;
-  }
- 
-}
-
-video {
-  object-fit: cover;
-  position: absolute;
-  top: 57%;
-  left: 50%;
-  width: 100%;
-  height: auto; 
-}
-
-.fullsize-video-bg { 
-  height: 100%; 
-  overflow: hidden; 
-}
-
-.fullsize-video-bg:before { 
-  content: ""; 
-  background: rgba(114,45,0,.35); 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  z-index: 0; 
-}
-
-.fullsize-video-bg:after {  
-  background-image: url("../img/favicon.png"); 
-  background-size: 3px 3px; 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  z-index: 1; 
-}
-
-#video-viewport { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  overflow: hidden; 
-  z-index: 0; 
-}
-*/
-
-
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2240,11 +2124,11 @@ h3 strong{
 
 #nossosServicos h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Dots", cursive;
 }
 
 #nossosServicos h1 span {
@@ -3090,16 +2974,9 @@ h3 strong{
 }
 
 #pisoLed .piso1{
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: auto;
   padding: 0px 20px;
-}
-
-@media (max-width: 414px){
-  #pisoLed .piso1{
-    width: 400px;
-    height: 400px;
-  }
 }
 
 #pisoLed2 {
@@ -3132,17 +3009,11 @@ h3 strong{
 }
 
 #pisoLed2 .piso1{
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: auto;
   padding: 0px 20px;
 }
 
-@media (max-width: 414px){
-  #pisoLed2 .piso1{
-    width: 400px;
-    height: 400px;
-  }
-}
 
 /****  Série Diamante ****/
 
@@ -3178,11 +3049,6 @@ h3 strong{
 #diamante .Diamante1{
   width: 300px;
   height: 450px;
-}
-
-#diamante .DiamanteIcon{
-  width: 200px;
-  height: 200px;
 }
 
 @media (max-width: 414px){
@@ -3229,7 +3095,7 @@ h3 strong{
 
 #diamante2 .DiamanteIcon{
   width: 200px;
-  height: 200px;
+  height: auto;
 }
 
 #diamante2 .row>*{
@@ -3279,25 +3145,15 @@ h3 strong{
 }
 
 #magnesioDesc .magnesio1{
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: auto;
 }
 
 #magnesioDesc2 .magnesio2{
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: auto;
 }
 
-@media (max-width: 414px){
-  #magnesioDesc .magnesio1{
-    width: 400px;
-    height: 400px;
-  }
-  #magnesioDesc .magnesio2{
-    width: 400px;
-    height: 300px;
-  }
-}
 
 #magnesioDesc2 {
   width: 100%;
@@ -3367,12 +3223,12 @@ h3 strong{
 
 #magnesioDescTec .magnesio1{
   width: 450px;
-  height: 450px;
+  height: auto;
 }
 
 #magnesioDescTec .magnesio2{
   width: 450px;
-  height: 350px;
+  height: auto;
 }
 
 #magnesioDescTec .magnesio5{
@@ -3648,12 +3504,12 @@ h3 strong{
 
 .quartzo1{
   width: 450px;
-  height: 450px;
+  height: auto;
 }
 
 .quartzo2{
   width: 450px;
-  height: 300px;
+  height: auto;
 }
 
 @media (max-width: 414px){
