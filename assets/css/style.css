@@ -442,24 +442,16 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+
+.videoBG{
   width: 100%;
-  height: 119vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
   position: relative;
+  transform: translateY(-8%);
   background: url("../img/video_static.png") top center;
   background-size: cover;
-}
-
-.videoBG video{
-  z-index: 0;
-  position: absolute;
-  width: 100vw;
-  height: 119vh;
-  min-width: 100vw;
-  min-height: 119vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #hero:before {
