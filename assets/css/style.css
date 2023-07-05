@@ -3758,12 +3758,12 @@ h3 strong{
 
 }
 
-#sendingCards .icon-box h3 a {
+#sendingCards .icon-box h3{
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#sendingCards .icon-box h3 a:hover {
+#sendingCards .icon-box h3:hover {
   color: #f5a50c;
 }
 
@@ -4711,7 +4711,6 @@ h3 strong{
 }
 
 /*-----------------*/
-
 #contatoBlocos {
   width: 100%;
   height: auto;
