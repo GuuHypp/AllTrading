@@ -1049,12 +1049,12 @@ h3 strong{
 
 }
 
-#blocos .icon-box h3 a {
+#blocos .icon-box h3{
   color: #0c0b2d;
   transition: ease-in-out 0.3s;
 }
 
-#blocos .icon-box h3 a:hover {
+#blocos .icon-box h3:hover {
   color: #f5a50c;
 }
 
